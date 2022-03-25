@@ -1,0 +1,23 @@
+body {
+  background-image: url("mcu-perso.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Navigation {
+  position: sticky;
+  top: 0;
+}
+
+.liste_perso {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.container {
+  background-color: rgba(37, 31, 31, 0.76);
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}

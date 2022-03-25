@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("mcu-perso.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*Titre*/
+.presentation {
+  text-align: center;
+  position: relative;
+  top: 10%;
+  color: white;
+  background-color: #251f1f79;
+  padding: 1%;
+  border-radius: 5%;
+}
+
+/*Partie Connexion à un compte*/
+.connexion {
+  position: relative;
+  top: 20%;
+  text-align: center;
+  color: white;
+  background-color: #251f1f79;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+/*Partie Création d'un compte*/
+.creation {
+  text-align: center;
+  width: 25%;
+  padding: 2%;
+  color: white;
+  background-color: #251f1f79;
+  position: relative;
+  top: 20%;
+}
+
+/*Partie Boostrap*/
+.form-control,
+.form-control:focus {
+  background-color: transparent;
+  border: 1px solid #9a9b9c;
+  border-radius: 0.5rem;
+  color: #f8f9fa;
+}
+
+.form-control::placeholder,
+a:hover {
+  color: #9a9b9c;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
